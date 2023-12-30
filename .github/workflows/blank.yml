@@ -2,8 +2,7 @@ name: Run JMeter Script
 
 on:
   schedule:
-    - cron: '0 1-23 * * *'
-    - cron: '0 0 * * *'
+    - cron: '30 6 * * *'
 
 jobs:
   run-jmeter:
