@@ -1,5 +1,4 @@
 name: Run JMeter Script
-
 on:
   schedule:
     - cron: '30 6 * * *'
